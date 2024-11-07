@@ -1,4 +1,4 @@
-from case1.database import get_connection
+from .. import get_connection
 
 class User:
     def __init__(self, email, nome):
