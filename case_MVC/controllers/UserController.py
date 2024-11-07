@@ -1,7 +1,7 @@
 from flask import render_template, redirect, url_for, request, flash
-from case1 import app
-from case1.database import get_connection
-from case1.models.user import User 
+from .. import app
+from .. import get_connection
+from .. models.user import User 
 
 @app.route('/users')
 def index():    
