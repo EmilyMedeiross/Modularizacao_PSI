@@ -1,1 +1,1 @@
-from case1.controllers import UserController
+from .. controllers import UserController
